@@ -33,7 +33,7 @@ body * {
 
 #header .blog-title {
   font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
