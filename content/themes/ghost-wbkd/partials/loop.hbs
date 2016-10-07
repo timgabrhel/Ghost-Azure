@@ -16,14 +16,15 @@
         
         <footer class="post-meta">
             <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+            <br />
             {{#if tags}}
-            <span class="dot"></span>
-            <span class="post-tags-loop">
-                {{#foreach tags}}
-                <a href="{{url}}" title="{{name}}" class="tag">#{{name}}</a>
-                {{/foreach}}
-            </span>
-        {{/if}}
+                <span class="dot"></span>
+                <span class="post-tags-loop">
+                    {{#foreach tags}}
+                    <a href="{{url}}" title="{{name}}" class="tag">{{name}}</a>
+                    {{/foreach}}
+                </span>
+            {{/if}}
         </footer>
     </article>
 </a>
