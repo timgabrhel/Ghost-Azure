@@ -36,15 +36,6 @@
 
         <footer class="post-footer">
 
-        {{#if tags}}
-            <span class="dot"></span>
-            <span class="post-tags-loop">
-                {{#foreach tags}}
-                <a href="{{url}}" title="{{name}}" class="tag">#{{name}}</a>
-                {{/foreach}}
-            </span>
-        {{/if}}
-
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
 
